@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        h1 {color:rgba(237, 13, 32, 0.982);text-align:center;}
+        a {color:rgb(255, 111, 0)}
+        caption {color:deeppink;font-size:25px;font-family: Verdana;}
+        div{color:black;font-size:20px;font-family: Verdana;}
+        body{
+    background-image:url();
+    background-attachment:fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+        </style>
+</head>
+<body bgcolor="skyblue">
+   
+   <!-- <marquee bgcolor="yellow" width="1000px" direction="right" height="20px" scrollamount="10"> Counselling Enquiry Form </marquee> -->
+   <h1>COUNSELLING ENQUIRY FORM </h1>
+   <img src="/Images/college.jpg" alt="College" style="float:right;width:500px;height:300px;">
+    <br>
+    <br>
+    <br>
+<form action="/action_page.php">
+    <div>
+     Enquiry Date:<input type="date"> 
+    </div>
+    <br>
+    <div>
+     Name : <INPUT TYPE="TEXT" name="myname" required> &nbsp;&nbsp; Date of Birth :<input type="date">
+    </div>
+    <br>
+    <div>
+     Gender : Male<INPUT TYPE="radio" name="mygender"> Female<INPUT TYPE="radio" name="mygender"> Other<INPUT TYPE="radio" name="mygender">
+    </div>
+    <br>
+    <div>
+    Contact Number:<input type="tel" value="8763189093" disabled>
+    </div>
+    <br>
+    <br>
+    <div>
+    Attach Your Report Card : <input type="file">
+    </div>
+    <br>
+    <br>
+    <div>
+     Course Selection : <select name="COURSE SELECTION" id="course">
+            <option value="B.E(Mech)">B.E(Mech)</option>
+            <option value="B.E(Elect)">B.E(Elect)</option>
+            <option value="B.E(Civil)">B.E(Civil)</option>
+            <option value="B.E(IT)">B.E(IT)</option>
+            <option value="B.E(Comp Sc.)">B.E(Comp Sc.)</option>
+            </select>
+    </div>
+    <br>
+      <table border="1px">
+        <caption>Select Center for State Counselling </caption>
+      <tr>
+        <th>Choice-1</th>
+        <th>Choice-2</th>
+        <th>Choice-3</th>
+       </tr>
+       <tr>
+        <td>
+         CV RAMAN Engineering College,BBSR<input type="radio" name="college">
+         <br>
+         Burla Engineering Colleg,Burla<input type="radio" name="college">
+         <br>
+         G M College,Sampalpur<input type="radio" name="college">
+         <br>
+         KIIT College,BBSR<input type="radio" name="college">
+        </td>
+         <td>
+         Trident Engineering College,BBSR<input type="radio" name="college1">
+         <br>
+         G M Engineering College,Anugul<input type="radio" name="college1">
+         <br>
+         Saranga Engineering College,Saranga<input type="radio" name="college1">
+         <br>
+         GITA Engineering College,BBSR<input type="radio" name="college1">
+        </td>
+        <td>
+        Ajya Binaya Engineering College,CUTTACK<input type="radio" name="college2">
+        <br>
+        GAJAPATI MAHARAJ ENGINEERING COLLEGE,BERAHAMPUR<input type="radio" name="college2">
+        <br>
+        KCR Engineering College,Koraput<input type="radio" name="college2">
+        <br>
+        LKCG Engineering College,Cuttack<input type="radio" name="college2">
+        </td>
+       </tr>
+    </table>
+    <br>
+    <button>SUBMIT</button>
+    <input type="Reset">
+    <br>
+</form>
+     <a href="index.html"> Home Page </a>
+</body>
+</html>
